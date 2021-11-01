@@ -2,7 +2,7 @@
 
 Será preciso instalar o [VirtualBox](https://www.virtualbox.org/) de alguma forma. 
 
-O pacote com as máquinas virtuais pode ser baixado em https://storage.googleapis.com/live-ansible/ansible.ova.
+O pacote com as máquinas virtuais pode ser baixado em https://storage.googleapis.com/live-ansible/ansible.ova, a **ova** pode não estar disponível após o evento.
 
 Ao baixar o arquivo `.ova` será preciso importá-lo e adicionar uma interface de rede para a comunicação com as máquinas.
 

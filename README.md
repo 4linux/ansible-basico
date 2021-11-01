@@ -5,6 +5,8 @@ Podemos configurar centenas de máquinas de um ponto qualquer através de um arq
 
 Para preparar o ambiente seguir as instruções em [virtualbox.md](https://github.com/4linux/ansible-basico/blob/master/virtualbox.md) ou [vagrant.md](https://github.com/4linux/ansible-basico/blob/master/vagrant.md).
 
+Recomendamos o uso do **vagrant** pois é uma ferramenta que nos auxilia a criar ambientes de teste da maneira mais cômoda possível, como segunda opção fornecemos a **ova** que poderá estar indisponível após o evento.
+
 ## Inventário
 
 O inventário é o arquivo em que definimos as nossas máquinas, pode ter vários formatos como INI, JSON ou YAML.
