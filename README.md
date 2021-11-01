@@ -3,6 +3,8 @@
 [Ansible](https://www.ansible.com/) é uma ferramenta de automação e gerência de configuração, sem a necessidade de um centralizador e de agentes instalados nas máquinas.
 Podemos configurar centenas de máquinas de um ponto qualquer através de um arquivo de formato muito simples chamado [YAML](https://pt.wikipedia.org/wiki/YAML).
 
+Para preparar o ambiente seguir as instruções em [virtualbox.md](https://github.com/4linux/ansible-basico/blob/master/virtualbox.md) ou [vagrant.md](https://github.com/4linux/ansible-basico/blob/master/vagrant.md).
+
 ## Inventário
 
 O inventário é o arquivo em que definimos as nossas máquinas, pode ter vários formatos como INI, JSON ou YAML.
