@@ -8,35 +8,35 @@ Ao baixar o arquivo `.ova` será preciso importá-lo e adicionar uma interface d
 
 ## Preparação
 
-[Passo 1](images/vb-import-01.png)
+![Passo 1](images/vb-import-01.png)
 
 Clique no ícone para **importar** o pacote.
 
-[Passo 2](images/vb-import-02.png)
+![Passo 2](images/vb-import-02.png)
 
 Na janela que aparecerá, selecione o ícone do **diretório**.
 
-[Passo 3](images/vb-import-03.png)
+![Passo 3](images/vb-import-03.png)
 
 Selecione o arquivo `ansible.ova` e confirme a escolha.
 
-[Passo 4](images/vb-import-04.png)
+![Passo 4](images/vb-import-04.png)
 
 Clique no botão para **avançar**.
 
-[Passo 5](images/vb-import-05.png)
+![Passo 5](images/vb-import-05.png)
 
 Uma descrição das máquinas aparecerá, são três no total, simplesmente confirme clicando no botão **importar**.
 
-[Passo 6](images/vb-import-06.png)
+![Passo 6](images/vb-import-06.png)
 
 Aceite as licensas... ops, isso foi erro meu ao gerar as máquinas...
 
-[Passo 7](images/vb-import-07.png)
+![Passo 7](images/vb-import-07.png)
 
 Veja que a máquina pede por uma interface de rede que ainda não existe, ou se existe precisará ser modificada.
 
-[Passo 8](images/vb-import-08.png)
+![Passo 8](images/vb-import-08.png)
 
 - No menu superior clique em `Arquivo -> Gerenciador de Redes`.
 - Crie uma nova interface de rede clicando em **Criar**, o nome não importa.
