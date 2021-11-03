@@ -33,3 +33,40 @@ vagrant ssh m1
 ```
 
 Pronto, você está no terminal da máquina!
+
+## Comandos Básicos
+
+A etapa de criação e provisionamento acontece apenas uma vez, chamadas subsequentes a `vagrant up` apenas iniciarão as máquinas. Todos os comandos devem ser executados no diretório em que o arquivo `Vagrantfile` está.
+
+Para verificar as maquinas:
+
+```bash
+vagrant status
+# Current machine states:
+# 
+# m1                        running (virtualbox)
+# m2                        running (virtualbox)
+# m3                        running (virtualbox)
+# 
+# This environment represents multiple VMs. The VMs are all listed
+# above with their current state. For more information about a specific
+# VM, run `vagrant status NAME`.
+```
+
+Para parar as máquinas:
+
+```bash
+vagrant halt
+```
+
+Para reinicar as máquinas:
+
+```bash
+vagrant reload
+```
+
+Para destruir o ambiente:
+
+```bash
+vagrant destroy
+```
