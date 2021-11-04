@@ -30,6 +30,10 @@ Vagrant.configure('2') do |config|
       m.vm.provision "shell", inline: <<-'SHELL'
         apt-get update
         apt-get install -y ansible vim nano
+	mkdir -p /root/.ssh
+        cp /vagrant/files/id_rsa* /root/.ssh
+        chmod 400 /root/.ssh/id_rsa*
+        cp /vagrant/files/id_rsa.pub /root/.ssh/authorized_keys
       SHELL
 
     end
